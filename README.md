@@ -1,2 +1,2 @@
-QR scanner and Generator 
+QR scanner and Generator -
 Android Application
