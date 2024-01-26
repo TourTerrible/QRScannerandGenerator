@@ -68,7 +68,7 @@ public class Scan extends AppCompatActivity {
                 ClipboardManager manager = (ClipboardManager) getSystemService(CLIPBOARD_SERVICE);
                 ClipData clipData = ClipData.newPlainText("text", txtBarcodeValue.getText());
                 manager.setPrimaryClip(clipData);
-                Toast.makeText(getApplicationContext(), "Text Copied", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(), "Text Copied Successfully", Toast.LENGTH_SHORT).show();
 
             }
         });
